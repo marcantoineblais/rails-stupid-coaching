@@ -1,0 +1,86 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Open');
+
+$blue: #3355cc;
+$grey: #889999;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+h2, h3 {
+  margin: 12px 0;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+#question {
+  width: 512px;
+  margin: 5px 0;
+  padding: 12px 4px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid $grey;
+  border-right: none;
+  font-size: 20px;
+  color: #333;
+}
+
+#submit {
+  width: 80px;
+  margin: 5px -4px;
+  padding: 12px 12px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid $grey;
+  border-left: none;
+  background-color: $blue;
+  color: white;
+  font-size: 20px;
+}
+
+.chat-box {
+  color: #333;
+  border-left: 4px $grey solid;
+  padding: 4px 16px;
+  margin-bottom: 32px;
+}
+
+#coach {
+  background-color: #ffbb0022;
+}
+
+.chat-box p {
+  margin: 2px 0
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+#button {
+  display: inline-block;
+  font-weight: bold;
+  background-color:$blue;
+  color: #eee;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin-top: 16px;
+}
